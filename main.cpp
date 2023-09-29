@@ -7,7 +7,7 @@ using namespace std;
 const string EXTENSION = "cpp";
 const string TEMP = getenv("TEMP");
 
-int error(string message) {
+void error(string message) {
     cout << "ERROR: " << message << endl;
     exit(0);
 }
