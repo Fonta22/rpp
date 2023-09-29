@@ -1,0 +1,9 @@
+# Visual Studio config
+.vscode/
+
+# Compiled binaries (except r++)
+*.exe
+!r++.exe
+
+# Test files
+*test*
